@@ -12,6 +12,6 @@ resource "aws_instance" "web" {
       http_tokens   = "required"
  }
   tags = {
-    Name = "airbnb-web-server-instance"
+    Name = "airbnb-web-server-instance-1"
   }
 }
