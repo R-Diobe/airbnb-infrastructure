@@ -7,6 +7,10 @@ resource "aws_instance" "web" {
   encrypted     = true
 }
 
+  metadata_options {     
+      http_endpoint = "enabled"
+      http_tokens   = "required"
+ }
   tags = {
     Name = "airbnb-web-server"
   }
