@@ -34,3 +34,18 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+
+
+
+
+
+
+
+# def COLOR_MAP=[
+#     'SUCCESS': 'good',
+#     'FAILURE': 'danger',
+#     ]
+
+
+# COLOR_MAP[currentBuild,currentResult]
